@@ -18,9 +18,8 @@ The server will have to handle this issue and send the message to all the client
 
 -Encryption:
 A simple encryption function could be like replacing each alphabet in the message with the next alphabet, i.e., if any client writes “abc” then it will be ‘bcd’ after encryption. The server will receive ‘bcd’ and it will just simply disperse it. When a client receives a message, it has to decrypt the message by replacing each alphabet in the received message with the previous alphabet. So ‘bcd’ will become ‘abc’ after decryption.
-**- If the message is “xyza”, then it will be “yzab” after encryption.
-**S- If the message is “zpaz”, then it will become “yozy” after decryption.
-**
+**- If the message is “xyza”, then it will be “yzab” after encryption.**
+**- If the message is “zpaz”, then it will become “yozy” after decryption.**
 
 # Command prompt commands
 - Go to the folder which contains ***server.py*** & ***client.py***
