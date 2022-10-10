@@ -1,5 +1,5 @@
 # Server-Client-based-multiple-users-CHAT-Application
-In this project you are going to build a networking system based application that has a server which can accept multiple client requests. You can use python based socket
+In this project, I have built a networking system based application that has a server which can accept multiple client requests. I have used python based socket
 programming in order to create the system. Each client can connect to the server anytime by sending a network request containing an IP, the server's port address and a unique name. Client’s name can never be ‘ALL’. The following tasks on the server side need to be done carefully.
 - The server will print on its screen a confirmation message like “[The latest client name] just joined the chat” after receiving each request. And broadcast a message "[The latest client name] just joined the server”.
 - If the server accepts a request with a name “ALL”, it will immediately discard the request.
@@ -16,10 +16,11 @@ If the client wants to broadcast a message, he has to write:
 >          ALL*hey, how are you all?
 The server will have to handle this issue and send the message to all the clients.
 
--Extension:
+-Encryption:
 A simple encryption function could be like replacing each alphabet in the message with the next alphabet, i.e., if any client writes “abc” then it will be ‘bcd’ after encryption. The server will receive ‘bcd’ and it will just simply disperse it. When a client receives a message, it has to decrypt the message by replacing each alphabet in the received message with the previous alphabet. So ‘bcd’ will become ‘abc’ after decryption.
-**If the message is “xyza”, then it will be “yzab” after encryption.
-If the message is “zpaz”, then it will become “yozy” after decryption.**
+**- If the message is “xyza”, then it will be “yzab” after encryption.
+**S- If the message is “zpaz”, then it will become “yozy” after decryption.
+**
 
 # Command prompt commands
 - Go to the folder which contains ***server.py*** & ***client.py***
