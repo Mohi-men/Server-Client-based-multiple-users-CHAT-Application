@@ -26,13 +26,12 @@ If the message is “zpaz”, then it will become “yozy” after decryption.**
 - Run **command prompt** on this folder
 - One for **Server** & One for each **Client**
 
-## To run ***server.py***:
+### To run ***server.py***:
 ```
 python server.py
-python client.py
 ```
 
-## To run ***client.py***:
+### To run ***client.py***:
 ```
 python client.py
 ```
