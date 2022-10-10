@@ -21,6 +21,13 @@ A simple encryption function could be like replacing each alphabet in the messag
 **If the message is “xyza”, then it will be “yzab” after encryption.
 If the message is “zpaz”, then it will become “yozy” after decryption.**
 
-# Output
+# Command prompt commands
+- Go to the folder which contains ***server.py*** & ***client.py***
+- Run **command prompt** on this folder
+- One for **Server** & One for each **Client**
+
+![This is an image](./demo.png)
+
+
 
 
